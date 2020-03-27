@@ -28,15 +28,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+    Describe the biggest difference between .forEach & .map.
+    
+    Answer: They are helper methods in array to loop over an array easily. .map doesexactly the same thing as ehat the for loop does, but .map creates a bew array with the result of calling a provided function on element in the calling array. .forEach is another looping function for an array, there are teo parameter that .map and .forEach can take a callback function and (thisArg) which they use as their this. 
 
-2. What is the difference between a function and a method?
+    What is the difference between a function and a method?
+    
+    A function is a piece of code that is called by name, it is passed data to operate on and can optionally return data which is the return value. A method is a piece of code that is called by name that associated with an object. it is similar to a function but has 2 key differences: 1) its implicitly passed the object on which it was called 2) its able to operate on data that is contained within the class. 
 
-3. What is closure?
+    What is closure? 
+    
+    Answer:The combination of a function bundled together with references to its surrounding state. A closure gives you access to an outer function's scope from an inner function.
 
-4. Describe the four rules of the 'this' keyword.
+    Describe the four rules of the 'this' keyword.
+    
+    Answer: 1) Is the function called by new?
+	    2) Is the function called by call(), apply(), or bind()?
+            3) Is the function called as a method, ie: obj.func()?
+	    4) Is the function called in the global scope?
 
-5. Why do we need super() in an extended class?
+    Why do we need super() in an extended class?
+	Answer: It is used to call the constructor of the parent class and to access the parent's properties and methods. 
 
 ## Project Set up
 
